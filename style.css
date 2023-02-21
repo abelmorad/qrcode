@@ -14,9 +14,6 @@ body {
 a {
     font-size: 15px;
 }
-p {
-    
-}
 figure {
     display: flex;
     flex-direction: column;
