@@ -58,3 +58,9 @@ figcaption {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+@media (max-width: 375px) {
+    .qr-container {
+        min-height: 89vh;
+        height: 89vh;
+    }
+}
