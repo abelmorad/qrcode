@@ -3,16 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
+main {
     display: grid;
     align-items: center;
     justify-content: center;
     justify-items: center;
     text-align: center;
     background-color: hsl(219, 39%, 75%);
-}
-a {
-    font-size: 15px;
 }
 figure {
     display: flex;
@@ -53,13 +50,10 @@ figcaption {
     font-weight: 700;
     font-family: 'Outfit', sans-serif;
 }
-.attribution {
-    font-size: 10px; 
-}
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
 span,a{
-    font-size: 14px;
+    font-size: 0.8rem;
     font-family: 'Outfit', sans-serif;
 }
