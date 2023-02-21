@@ -31,6 +31,7 @@ figure {
     justify-content: center;
     -webkit-box-align: center;
     flex-direction: column;
+    align-items: center;
     min-height: 100vh;
     height: 100vh;
     width: 100%;
@@ -58,9 +59,7 @@ figcaption {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-@media (max-width: 375px) {
-    .qr-container {
-        min-height: 89vh;
-        height: 89vh;
-    }
+span,a{
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
 }
